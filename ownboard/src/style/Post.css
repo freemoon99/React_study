@@ -1,0 +1,41 @@
+#postTitle{
+    text-align: center;
+}
+#backBtn{
+    position: absolute;
+    top: 0.5%;
+    left: 77%;
+    border: 0px solid;
+    background-color: white;
+    cursor: pointer;
+}
+
+#backBtn:active{
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.inputBox{
+    height: 60vh;
+    border: 1px solid;
+}
+.titleBox{
+    height: 5vh;
+}
+textarea{
+    width: 100%;
+    height: 100%;
+}
+.completebtn{
+    border: 1px solid;
+}
+
+.footer{
+    background-color: blanchedalmond;
+    width: 100%;
+    min-height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+.Logo{
+    text-align: center;
+}
+
+.footer{
+    background-color: blanchedalmond;
+    width: 100%;
+    min-height: 70px;
+    text-align: center;
+}
+
+.createbtn{
+    border: 0px solid;
+    background-color: blanchedalmond;
+    font-size: larger;
+    margin-top: auto;
+    margin-bottom: auto;
+    line-height: 70px;
+}

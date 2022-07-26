@@ -1,0 +1,21 @@
+.Box{
+    border: 2px solid pink;
+}
+
+.Title{
+    font-size: medium;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.Contents{
+    font-size: medium;
+    margin: 0px;
+    color: gray;
+}
+
+.Category{
+    font-size: small;
+    margin: 0px;
+    color: blue;
+}
