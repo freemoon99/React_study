@@ -1,21 +1,44 @@
 .Box{
     border: 2px solid pink;
 }
-
-.Title{
+.detailTitle{
     font-size: medium;
-    font-weight: bold;
-    margin: 0px;
+    text-align: left;
+    height: 20%;
+    margin-left: 4%;
 }
-
-.Contents{
-    font-size: medium;
-    margin: 0px;
-    color: gray;
-}
-
-.Category{
+#title{
     font-size: small;
-    margin: 0px;
+}
+#category{
+    font-size: small;
     color: blue;
+}
+#contents{
+    font-size: medium;
+    width: 100%;
+}
+.conBox{
+    display: flex;    
+}
+.dataBox{
+    display: flex;
+    border-bottom: 2px solid gray;
+}
+#btn{
+    cursor: pointer;
+    border: none;    
+    background-color: white;
+}
+#upBtn{
+}
+.modal-text{
+    text-decoration:none;
+    color:black;
+}
+.modal-container{
+    width: 20%;
+    top: 90%;
+    left: 80%;
+    text-align: center;
 }

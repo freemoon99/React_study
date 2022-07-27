@@ -17,3 +17,18 @@
     margin-bottom: auto;
     line-height: 70px;
 }
+.completebtn{
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.footer{
+    background-color: blanchedalmond;
+    width: 100%;
+    min-height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
