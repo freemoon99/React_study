@@ -1,5 +1,6 @@
 import React from 'react';
 import Block from './Block';
+import '../style/component/List.css'
 
 function List({allPost, setAllPost}) {
     return (

@@ -3,7 +3,7 @@ import '../style/Main.css'
 import List from './../component/List';
 import Post from '../component/Post';
 
-const Main = () => {
+function Main(){
     const [ allPost, setAllPost ] = useState();
 
     const [ postList, setPostList ] = useState({
@@ -13,7 +13,7 @@ const Main = () => {
     });
 
     const postHandler = (e) => {
-        if(!localStorage.getItem('blink')){ //빈배열 일 때.
+        if(!localStorage.getItem('blink')){
             let posts = [];
             posts.push(postList);
             localStorage.setItem('blink', JSON.stringify(posts));
@@ -37,7 +37,7 @@ const Main = () => {
     }, []);
 
     return (
-        <div>
+        <div className='mainBox'>
             <h1 className='Logo'>LIKELION</h1>
             <hr/>
             <Post postList={postList} setPostList={setPostList}/>

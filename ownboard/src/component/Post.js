@@ -3,8 +3,6 @@ import '../style/component/Post.css'
 
 const Post = ({postList, setPostList}) => {
 
-    // const [ option, setOption ] = useState('');
-
     const optionList = [
         "주제", "엔터테인먼트", "예술", "생활", "노하우", "쇼핑", "취미", "여가", "여행", "지식", "동향"
     ]

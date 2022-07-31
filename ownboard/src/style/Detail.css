@@ -1,0 +1,16 @@
+.Logo{
+    text-align: center;
+}
+
+#ttBox{
+    border: 2px solid red;
+    height: 5vh;
+}
+#caBox{
+    border: 2px solid green;
+    height: 5vh;
+}
+#ctBox{
+    border: 2px solid blue;
+    height: 40vh;
+}
